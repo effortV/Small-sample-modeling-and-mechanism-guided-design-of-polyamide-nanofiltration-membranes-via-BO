@@ -141,9 +141,3 @@ All outputs are written to `results/`:
 - The hyperparameter search ranges and final selected values reported in the paper are hard-coded in the corresponding scripts.
 - Minor numerical differences may occur across XGBoost / scikit-learn versions; the versions used in our experiments are pinned via `requirements.txt`.
 
-
----
-
-## 8. Contact
-
-For questions about the code or data, please open an issue on this repository or contact the corresponding author of the paper.
