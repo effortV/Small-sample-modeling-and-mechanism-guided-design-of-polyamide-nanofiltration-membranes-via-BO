@@ -16,7 +16,6 @@ The code implements a small-sample machine-learning workflow for polyamide nanof
 ## 1. Repository structure
 
 ```
-.
 ├── train_models.py                 # Train RP and SJ XGBoost models, save to models/
 ├── run_ga_target1.py               # GA optimization for target interval 1
 ├── run_ga_target2.py               # GA optimization for target interval 2
@@ -31,7 +30,6 @@ The code implements a small-sample machine-learning workflow for polyamide nanof
 │   └── preparation - D.xlsx
 ├── models/                         # Saved XGBoost models (created by train_models.py)
 ├── results/                        # All output files (created at runtime)
-├── requirements.txt
 └── README.md
 ```
 
@@ -139,5 +137,5 @@ All outputs are written to `results/`:
 
 - All scripts fix random seeds (`random_state` for `train_test_split`, `random_state=0` for Bayesian optimization, `SEED=42` for the GA) so that results are deterministic given the same input data and library versions.
 - The hyperparameter search ranges and final selected values reported in the paper are hard-coded in the corresponding scripts.
-- Minor numerical differences may occur across XGBoost / scikit-learn versions; the versions used in our experiments are pinned via `requirements.txt`.
+- Minor numerical differences may occur across XGBoost / scikit-learn versions.
 
