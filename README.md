@@ -1,9 +1,6 @@
 # Small-sample modeling and mechanism-guided design of polyamide nanofiltration membranes via Bayesian optimization
 
-This repository contains the code accompanying the paper:
 
-> **Small-sample modeling and mechanism-guided design of polyamide nanofiltration membranes via Bayesian optimization**
-> Zihang Zhao *et al.*, *AIChE Journal* (under review).
 
 The code implements a small-sample machine-learning workflow for polyamide nanofiltration membranes:
 
